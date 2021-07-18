@@ -18,6 +18,9 @@
     "url": "https://github.com/jordan-git/stock-up-site/issues"
   },
   "homepage": "https://github.com/jordan-git/stock-up-site#readme",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.12"
