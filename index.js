@@ -1,5 +1,5 @@
 import app from './app.js';
 
-const port = Number(process.env.SERVER_PORT) || 4000;
+const port = Number(process.env.PORT) || 8080;
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
