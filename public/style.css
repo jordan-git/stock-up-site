@@ -10,6 +10,7 @@
 html {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.2rem;
+  overflow-x: hidden;
   /* scroll-snap-type: y mandatory; */
 }
 
@@ -110,7 +111,6 @@ button:disabled {
 }
 
 .page:nth-child(2) > .description, .page:nth-child(2) > #right-side {
- 
   font-size: 1.2rem;
 }
 
@@ -123,7 +123,11 @@ button:disabled {
 }
 
 #right-side > * {
-  width: 60%;
+  width: 75%;
+}
+
+#right-side > img {
+  width: 75%;
 }
 
 .page:nth-child(2) .description {
@@ -145,10 +149,10 @@ button:disabled {
 
 #preview-picture {
   right: 20%; 
-  width: 60%;
   height: 45%;
   background: white;
   color: black;
+  overflow: hidden;
 }
 
 #check-list {
@@ -237,7 +241,7 @@ footer {
 }
 
 footer #contact-support {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 30px;
   margin-right: 50px;
   align-self: flex-end;
